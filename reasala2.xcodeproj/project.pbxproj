@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489640502131DC6587CBC67A /* Pods_reasala2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DBAD2AE80BEDF0DF5FD2A2 /* Pods_reasala2Tests.framework */; };
+		4C20BF2F26B264DB00674707 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20BF2E26B264DB00674707 /* CustomTextField.swift */; };
+		4C2A35A826B3AF4800535F66 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2A35A726B3AF4800535F66 /* Constants.swift */; };
+		4C4C57DE26AE440E0013F9F9 /* fcollectionRefrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C57DD26AE440E0013F9F9 /* fcollectionRefrance.swift */; };
+		4C4C57E026AE84CE0013F9F9 /* Fuserlistner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C57DF26AE84CE0013F9F9 /* Fuserlistner.swift */; };
+		4C87A7B726A5E7FA00116C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C87A7B626A5E7FA00116C43 /* AppDelegate.swift */; };
+		4C87A7B926A5E7FA00116C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C87A7B826A5E7FA00116C43 /* SceneDelegate.swift */; };
+		4C87A7BB26A5E7FA00116C43 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C87A7BA26A5E7FA00116C43 /* LoginViewController.swift */; };
+		4C87A7BE26A5E7FA00116C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C87A7BC26A5E7FA00116C43 /* Main.storyboard */; };
+		4C87A7C026A5E7FF00116C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C87A7BF26A5E7FF00116C43 /* Assets.xcassets */; };
+		4C87A7C326A5E7FF00116C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C87A7C126A5E7FF00116C43 /* LaunchScreen.storyboard */; };
+		4C87A7CE26A5E7FF00116C43 /* reasala2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C87A7CD26A5E7FF00116C43 /* reasala2Tests.swift */; };
+		4C87A7D926A5E7FF00116C43 /* reasala2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C87A7D826A5E7FF00116C43 /* reasala2UITests.swift */; };
+		4C87A7E726A5FEFF00116C43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C87A7E626A5FEFF00116C43 /* GoogleService-Info.plist */; };
+		4CE7A93C26AA67170019B470 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7A93B26AA67170019B470 /* User.swift */; };
+		A2FD8ABAC124ABCADBB4676F /* Pods_reasala2_reasala2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B119F6100FC4AAEF04B4A307 /* Pods_reasala2_reasala2UITests.framework */; };
+		DE8F77E8AAA4F373348344F2 /* Pods_reasala2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BDEDCD8F1DCD501A51C38F /* Pods_reasala2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C87A7CA26A5E7FF00116C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C87A7AB26A5E7FA00116C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C87A7B226A5E7FA00116C43;
+			remoteInfo = reasala2;
+		};
+		4C87A7D526A5E7FF00116C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C87A7AB26A5E7FA00116C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C87A7B226A5E7FA00116C43;
+			remoteInfo = reasala2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30BDEDCD8F1DCD501A51C38F /* Pods_reasala2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reasala2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C20BF2E26B264DB00674707 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4C2A35A726B3AF4800535F66 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4C4C57DD26AE440E0013F9F9 /* fcollectionRefrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fcollectionRefrance.swift; sourceTree = "<group>"; };
+		4C4C57DF26AE84CE0013F9F9 /* Fuserlistner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuserlistner.swift; sourceTree = "<group>"; };
+		4C87A7B326A5E7FA00116C43 /* reasala2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reasala2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C87A7B626A5E7FA00116C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C87A7B826A5E7FA00116C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C87A7BA26A5E7FA00116C43 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4C87A7BD26A5E7FA00116C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C87A7BF26A5E7FF00116C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C87A7C226A5E7FF00116C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C87A7C426A5E7FF00116C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C87A7C926A5E7FF00116C43 /* reasala2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reasala2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C87A7CD26A5E7FF00116C43 /* reasala2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reasala2Tests.swift; sourceTree = "<group>"; };
+		4C87A7CF26A5E7FF00116C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C87A7D426A5E7FF00116C43 /* reasala2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reasala2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C87A7D826A5E7FF00116C43 /* reasala2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reasala2UITests.swift; sourceTree = "<group>"; };
+		4C87A7DA26A5E7FF00116C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C87A7E626A5FEFF00116C43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CE7A93B26AA67170019B470 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6AAB8B4D836DDD2A5DE32A0A /* Pods-reasala2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reasala2Tests.release.xcconfig"; path = "Target Support Files/Pods-reasala2Tests/Pods-reasala2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D9998226C1BD6F918A3146B /* Pods-reasala2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reasala2Tests.debug.xcconfig"; path = "Target Support Files/Pods-reasala2Tests/Pods-reasala2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8723E93D699EC1390CD3B6C4 /* Pods-reasala2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reasala2.release.xcconfig"; path = "Target Support Files/Pods-reasala2/Pods-reasala2.release.xcconfig"; sourceTree = "<group>"; };
+		A8DBAD2AE80BEDF0DF5FD2A2 /* Pods_reasala2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reasala2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B119F6100FC4AAEF04B4A307 /* Pods_reasala2_reasala2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reasala2_reasala2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27D23DCF99F465F2ACC7EDA /* Pods-reasala2-reasala2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reasala2-reasala2UITests.release.xcconfig"; path = "Target Support Files/Pods-reasala2-reasala2UITests/Pods-reasala2-reasala2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED36D1D0D0E7D7E3DA3531DB /* Pods-reasala2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reasala2.debug.xcconfig"; path = "Target Support Files/Pods-reasala2/Pods-reasala2.debug.xcconfig"; sourceTree = "<group>"; };
+		F6382FC7ECC7F18F9F60003D /* Pods-reasala2-reasala2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reasala2-reasala2UITests.debug.xcconfig"; path = "Target Support Files/Pods-reasala2-reasala2UITests/Pods-reasala2-reasala2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C87A7B026A5E7FA00116C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8F77E8AAA4F373348344F2 /* Pods_reasala2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C87A7C626A5E7FF00116C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489640502131DC6587CBC67A /* Pods_reasala2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C87A7D126A5E7FF00116C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD8ABAC124ABCADBB4676F /* Pods_reasala2_reasala2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9E0F2B93F278C804AB62AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BDEDCD8F1DCD501A51C38F /* Pods_reasala2.framework */,
+				B119F6100FC4AAEF04B4A307 /* Pods_reasala2_reasala2UITests.framework */,
+				A8DBAD2AE80BEDF0DF5FD2A2 /* Pods_reasala2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C20BF2D26B2649200674707 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				4C20BF2E26B264DB00674707 /* CustomTextField.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		4C87A7AA26A5E7FA00116C43 = {
+			isa = PBXGroup;
+			children = (
+				4C87A7B526A5E7FA00116C43 /* reasala2 */,
+				4C87A7CC26A5E7FF00116C43 /* reasala2Tests */,
+				4C87A7D726A5E7FF00116C43 /* reasala2UITests */,
+				4C87A7B426A5E7FA00116C43 /* Products */,
+				5B92A6F2D7ED763AD6DF567B /* Pods */,
+				0C9E0F2B93F278C804AB62AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C87A7B426A5E7FA00116C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C87A7B326A5E7FA00116C43 /* reasala2.app */,
+				4C87A7C926A5E7FF00116C43 /* reasala2Tests.xctest */,
+				4C87A7D426A5E7FF00116C43 /* reasala2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C87A7B526A5E7FA00116C43 /* reasala2 */ = {
+			isa = PBXGroup;
+			children = (
+				4C20BF2D26B2649200674707 /* Style */,
+				4C87A7B626A5E7FA00116C43 /* AppDelegate.swift */,
+				4C87A7B826A5E7FA00116C43 /* SceneDelegate.swift */,
+				4C87A7BA26A5E7FA00116C43 /* LoginViewController.swift */,
+				4C87A7BC26A5E7FA00116C43 /* Main.storyboard */,
+				4C87A7BF26A5E7FF00116C43 /* Assets.xcassets */,
+				4C87A7C126A5E7FF00116C43 /* LaunchScreen.storyboard */,
+				4C87A7C426A5E7FF00116C43 /* Info.plist */,
+				4C87A7E626A5FEFF00116C43 /* GoogleService-Info.plist */,
+				4CE7A93D26AA68430019B470 /* Model */,
+				4C4C57DD26AE440E0013F9F9 /* fcollectionRefrance.swift */,
+				4C4C57DF26AE84CE0013F9F9 /* Fuserlistner.swift */,
+				4C2A35A726B3AF4800535F66 /* Constants.swift */,
+			);
+			path = reasala2;
+			sourceTree = "<group>";
+		};
+		4C87A7CC26A5E7FF00116C43 /* reasala2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C87A7CD26A5E7FF00116C43 /* reasala2Tests.swift */,
+				4C87A7CF26A5E7FF00116C43 /* Info.plist */,
+			);
+			path = reasala2Tests;
+			sourceTree = "<group>";
+		};
+		4C87A7D726A5E7FF00116C43 /* reasala2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C87A7D826A5E7FF00116C43 /* reasala2UITests.swift */,
+				4C87A7DA26A5E7FF00116C43 /* Info.plist */,
+			);
+			path = reasala2UITests;
+			sourceTree = "<group>";
+		};
+		4CE7A93D26AA68430019B470 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7A93B26AA67170019B470 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B92A6F2D7ED763AD6DF567B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED36D1D0D0E7D7E3DA3531DB /* Pods-reasala2.debug.xcconfig */,
+				8723E93D699EC1390CD3B6C4 /* Pods-reasala2.release.xcconfig */,
+				F6382FC7ECC7F18F9F60003D /* Pods-reasala2-reasala2UITests.debug.xcconfig */,
+				D27D23DCF99F465F2ACC7EDA /* Pods-reasala2-reasala2UITests.release.xcconfig */,
+				7D9998226C1BD6F918A3146B /* Pods-reasala2Tests.debug.xcconfig */,
+				6AAB8B4D836DDD2A5DE32A0A /* Pods-reasala2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C87A7B226A5E7FA00116C43 /* reasala2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C87A7DD26A5E7FF00116C43 /* Build configuration list for PBXNativeTarget "reasala2" */;
+			buildPhases = (
+				8FEB27354AAF808E87A6ED92 /* [CP] Check Pods Manifest.lock */,
+				4C87A7AF26A5E7FA00116C43 /* Sources */,
+				4C87A7B026A5E7FA00116C43 /* Frameworks */,
+				4C87A7B126A5E7FA00116C43 /* Resources */,
+				7B987BDDF3710F8ED4EEBA48 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reasala2;
+			productName = reasala2;
+			productReference = 4C87A7B326A5E7FA00116C43 /* reasala2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C87A7C826A5E7FF00116C43 /* reasala2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C87A7E026A5E7FF00116C43 /* Build configuration list for PBXNativeTarget "reasala2Tests" */;
+			buildPhases = (
+				ADEFDE6C63D42BB11A5CBD18 /* [CP] Check Pods Manifest.lock */,
+				4C87A7C526A5E7FF00116C43 /* Sources */,
+				4C87A7C626A5E7FF00116C43 /* Frameworks */,
+				4C87A7C726A5E7FF00116C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C87A7CB26A5E7FF00116C43 /* PBXTargetDependency */,
+			);
+			name = reasala2Tests;
+			productName = reasala2Tests;
+			productReference = 4C87A7C926A5E7FF00116C43 /* reasala2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C87A7D326A5E7FF00116C43 /* reasala2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C87A7E326A5E7FF00116C43 /* Build configuration list for PBXNativeTarget "reasala2UITests" */;
+			buildPhases = (
+				E50AC02AF9134F520E05739D /* [CP] Check Pods Manifest.lock */,
+				4C87A7D026A5E7FF00116C43 /* Sources */,
+				4C87A7D126A5E7FF00116C43 /* Frameworks */,
+				4C87A7D226A5E7FF00116C43 /* Resources */,
+				820354BD7BB2B4B0508F39B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C87A7D626A5E7FF00116C43 /* PBXTargetDependency */,
+			);
+			name = reasala2UITests;
+			productName = reasala2UITests;
+			productReference = 4C87A7D426A5E7FF00116C43 /* reasala2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C87A7AB26A5E7FA00116C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4C87A7B226A5E7FA00116C43 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4C87A7C826A5E7FF00116C43 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4C87A7B226A5E7FA00116C43;
+					};
+					4C87A7D326A5E7FF00116C43 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4C87A7B226A5E7FA00116C43;
+					};
+				};
+			};
+			buildConfigurationList = 4C87A7AE26A5E7FA00116C43 /* Build configuration list for PBXProject "reasala2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C87A7AA26A5E7FA00116C43;
+			productRefGroup = 4C87A7B426A5E7FA00116C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C87A7B226A5E7FA00116C43 /* reasala2 */,
+				4C87A7C826A5E7FF00116C43 /* reasala2Tests */,
+				4C87A7D326A5E7FF00116C43 /* reasala2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C87A7B126A5E7FA00116C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C87A7C326A5E7FF00116C43 /* LaunchScreen.storyboard in Resources */,
+				4C87A7C026A5E7FF00116C43 /* Assets.xcassets in Resources */,
+				4C87A7BE26A5E7FA00116C43 /* Main.storyboard in Resources */,
+				4C87A7E726A5FEFF00116C43 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C87A7C726A5E7FF00116C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C87A7D226A5E7FF00116C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B987BDDF3710F8ED4EEBA48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reasala2/Pods-reasala2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reasala2/Pods-reasala2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reasala2/Pods-reasala2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		820354BD7BB2B4B0508F39B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reasala2-reasala2UITests/Pods-reasala2-reasala2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reasala2-reasala2UITests/Pods-reasala2-reasala2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reasala2-reasala2UITests/Pods-reasala2-reasala2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEB27354AAF808E87A6ED92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reasala2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADEFDE6C63D42BB11A5CBD18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reasala2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50AC02AF9134F520E05739D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reasala2-reasala2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C87A7AF26A5E7FA00116C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C20BF2F26B264DB00674707 /* CustomTextField.swift in Sources */,
+				4CE7A93C26AA67170019B470 /* User.swift in Sources */,
+				4C4C57DE26AE440E0013F9F9 /* fcollectionRefrance.swift in Sources */,
+				4C87A7BB26A5E7FA00116C43 /* LoginViewController.swift in Sources */,
+				4C87A7B726A5E7FA00116C43 /* AppDelegate.swift in Sources */,
+				4C87A7B926A5E7FA00116C43 /* SceneDelegate.swift in Sources */,
+				4C4C57E026AE84CE0013F9F9 /* Fuserlistner.swift in Sources */,
+				4C2A35A826B3AF4800535F66 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C87A7C526A5E7FF00116C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C87A7CE26A5E7FF00116C43 /* reasala2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C87A7D026A5E7FF00116C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C87A7D926A5E7FF00116C43 /* reasala2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C87A7CB26A5E7FF00116C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C87A7B226A5E7FA00116C43 /* reasala2 */;
+			targetProxy = 4C87A7CA26A5E7FF00116C43 /* PBXContainerItemProxy */;
+		};
+		4C87A7D626A5E7FF00116C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C87A7B226A5E7FA00116C43 /* reasala2 */;
+			targetProxy = 4C87A7D526A5E7FF00116C43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C87A7BC26A5E7FA00116C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C87A7BD26A5E7FA00116C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C87A7C126A5E7FF00116C43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C87A7C226A5E7FF00116C43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C87A7DB26A5E7FF00116C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C87A7DC26A5E7FF00116C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C87A7DE26A5E7FF00116C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED36D1D0D0E7D7E3DA3531DB /* Pods-reasala2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reasala2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mic.reasala2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C87A7DF26A5E7FF00116C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8723E93D699EC1390CD3B6C4 /* Pods-reasala2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reasala2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mic.reasala2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C87A7E126A5E7FF00116C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9998226C1BD6F918A3146B /* Pods-reasala2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reasala2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mic.reasala2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reasala2.app/reasala2";
+			};
+			name = Debug;
+		};
+		4C87A7E226A5E7FF00116C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAB8B4D836DDD2A5DE32A0A /* Pods-reasala2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reasala2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mic.reasala2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reasala2.app/reasala2";
+			};
+			name = Release;
+		};
+		4C87A7E426A5E7FF00116C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6382FC7ECC7F18F9F60003D /* Pods-reasala2-reasala2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reasala2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mic.reasala2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reasala2;
+			};
+			name = Debug;
+		};
+		4C87A7E526A5E7FF00116C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27D23DCF99F465F2ACC7EDA /* Pods-reasala2-reasala2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reasala2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mic.reasala2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reasala2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C87A7AE26A5E7FA00116C43 /* Build configuration list for PBXProject "reasala2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C87A7DB26A5E7FF00116C43 /* Debug */,
+				4C87A7DC26A5E7FF00116C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C87A7DD26A5E7FF00116C43 /* Build configuration list for PBXNativeTarget "reasala2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C87A7DE26A5E7FF00116C43 /* Debug */,
+				4C87A7DF26A5E7FF00116C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C87A7E026A5E7FF00116C43 /* Build configuration list for PBXNativeTarget "reasala2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C87A7E126A5E7FF00116C43 /* Debug */,
+				4C87A7E226A5E7FF00116C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C87A7E326A5E7FF00116C43 /* Build configuration list for PBXNativeTarget "reasala2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C87A7E426A5E7FF00116C43 /* Debug */,
+				4C87A7E526A5E7FF00116C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C87A7AB26A5E7FA00116C43 /* Project object */;
+}

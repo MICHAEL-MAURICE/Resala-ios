@@ -1,0 +1,6 @@
+framework module Pods_reasala2_reasala2UITests {
+  umbrella header "Pods-reasala2-reasala2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
