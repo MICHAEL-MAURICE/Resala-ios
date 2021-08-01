@@ -15,6 +15,24 @@ class Fuserlistner {
     
     //MARK:- Login
     
+    func LoginEmail(email:String,password:String,completion: @escaping (_ error:Error?, _ isEmailverified:Bool)->Void){
+        Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
+            if error == nil && authResult!.user.isEmailVerified{
+                completion(error ,true)
+                
+                
+            }else{
+                
+                completion(error,false)
+                
+            }
+        }
+        
+        
+        
+        
+    }
+    
     
     //MARK:- Rejester
     
