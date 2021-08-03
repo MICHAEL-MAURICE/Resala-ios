@@ -35,7 +35,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" restorationIdentifier="111" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yK9-Rj-Zk4" customClass="CustomTextField" customModule="reasala2" customModuleProvider="target">
+                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" restorationIdentifier="111" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="  Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yK9-Rj-Zk4">
                                                 <rect key="frame" x="0.0" y="31.000000000000004" width="318" height="33.333333333333343"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -47,7 +47,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qyR-rL-7Mt" customClass="CustomTextField" customModule="reasala2" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="  Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qyR-rL-7Mt">
                                                 <rect key="frame" x="0.0" y="105.66666666666669" width="318" height="33"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -58,8 +58,9 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Confirm password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vkc-dm-mw3" customClass="CustomTextField" customModule="reasala2" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="  Confirm password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vkc-dm-mw3">
                                                 <rect key="frame" x="0.0" y="180" width="318" height="32"/>
+                                                <color key="backgroundColor" name="collectionViewBackground"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
@@ -125,7 +126,6 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="hIP-co-Ea5" firstAttribute="top" secondItem="ugH-3X-Axz" secondAttribute="bottom" id="4VA-fa-n7C"/>
                                     <constraint firstAttribute="trailing" secondItem="ugH-3X-Axz" secondAttribute="trailing" constant="35" id="4vZ-Qg-WT0"/>
                                     <constraint firstItem="hIP-co-Ea5" firstAttribute="top" secondItem="ugH-3X-Axz" secondAttribute="bottom" id="5Rb-kr-Ukw"/>
                                     <constraint firstItem="Dr7-zq-Lgc" firstAttribute="leading" secondItem="dFu-PB-yZK" secondAttribute="leading" id="CcC-zg-VoX"/>
@@ -143,7 +143,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="collectionViewBackground"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dFu-PB-yZK" secondAttribute="bottom" id="7Uy-aF-X03"/>
                             <constraint firstAttribute="trailing" secondItem="dFu-PB-yZK" secondAttribute="trailing" constant="20" id="Ihx-89-Lve"/>

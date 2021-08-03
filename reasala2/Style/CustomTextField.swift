@@ -8,15 +8,19 @@
 import UIKit
 
 class CustomTextField: UITextField {
+    
+    
+    
     override func awakeFromNib() {
         layer.cornerRadius = frame.size.height/2
         layer.borderWidth = 1
         clipsToBounds = true
-        if tag == 1 { placeholder = "Email" }
+        placeholder = "HHHHH"
         
     }
     override func layoutSubviews() {
-        layer.cornerRadius = frame.size.height/2
+        //layer.cornerRadius = frame.size.height/2
+        
         
     }
     

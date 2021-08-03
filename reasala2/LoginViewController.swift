@@ -18,12 +18,12 @@ class LoginViewController: UIViewController {
         
         rejesterOutlet.layer.cornerRadius = 20
         
-        emailLabel.text="Email"
-        passwordLabel.text="Password"
-        confirmpasswordLabel.text="ConfirmPassword"
-//        emailTextfield.delegate = self
-//        passwordTextfield.delegate = self
-//        ConfirmPasswordTextfield.delegate = self
+        emailLabel.text=""
+        passwordLabel.text=""
+        confirmpasswordLabel.text=""
+        emailTextfield.delegate = self
+        passwordTextfield.delegate = self
+        ConfirmPasswordTextfield.delegate = self
         tapgester()    }
 
     //MARK:- IBOutlet
@@ -59,14 +59,29 @@ class LoginViewController: UIViewController {
     //Button
   
     @IBAction func ResendEmailpress(_ sender: UIButton) {
-        print("jjjjjjj")
+        Fuserlistner.shared.resendEmailVerification(email: emailTextfield.text!) { error in
+            if error == nil {
+                
+                ProgressHUD.showSuccess("We Resend the Email Verification Check your Email Please")
+            }else{
+                
+                ProgressHUD.showError(error?.localizedDescription)
+            }
+        }
     }
     
     
     @IBAction func ForgetPasswordpress(_ sender: UIButton) {
         if isDataInputedfor(mode:"ForgetPassword"){
-            print ("Correct")
-            //TODO:-
+            Fuserlistner.shared.resetPassword(emailTextfield.text!) { error in
+                if error == nil {
+                    
+                    ProgressHUD.showSuccess("We Resend Email to Reset your Password")
+                }else{
+                    ProgressHUD.showError(error?.localizedDescription)
+                    
+                }
+            }
             
         }    else {
             ProgressHUD.showError("user name or email is required")
@@ -79,8 +94,9 @@ class LoginViewController: UIViewController {
     
     @IBAction func Rejesterpress(_ sender: UIButton) {
         if isDataInputedfor(mode: islogin ? "Login" :"Rejester"){
-            print ("Correct")
-            //TODO :- login or rejester
+           
+         
+             islogin ?login():rejester()
             
         }    else {
                 print ("all is required")
@@ -163,19 +179,71 @@ class LoginViewController: UIViewController {
         view.endEditing(false)
         
     }
-    
-    
+    //MARK:- Rejesteration
+
+    private func rejester(){
+        if passwordTextfield.text == ConfirmPasswordTextfield.text{
+            
+            
+            Fuserlistner.shared.RejesterEmail(email: emailTextfield.text! , password:passwordTextfield.text!) { error in
+                if error == nil{
+                    ProgressHUD.showSuccess("Verification email sent to you please verify your account please")
+                }else{
+                    
+                    ProgressHUD.showError(error?.localizedDescription)
+                    
+                }
+            }
+            
+        }else{
+            ProgressHUD.showError("Please make sure your password and confirm password the same")
+            
+        }
+        
+    }
+    //MARK:- Login
+    private func login(){
+        
+        Fuserlistner.shared.LoginEmail(email: emailTextfield.text!, password: passwordTextfield.text!) { error, isEmailverified in
+            if error == nil{
+                
+                
+                if isEmailverified {
+
+
+                }else{
+
+                    ProgressHUD.showFailed("Please verify your Email")
+                }
+
+                
+            }else{
+                
+                
+                ProgressHUD.showError(error?.localizedDescription)
+            }
+        }
+        
+        
+    }
+
 }
 
-//extension LoginViewController :UITextFieldDelegate{
-//
-//
-//    func textFieldDidChangeSelection(_ textField: UITextField) {
-//        emailLabel.text = emailTextfield.hasText ? "Email" : ""
-//
-//        passwordLabel.text = passwordTextfield.hasText ? "Password": ""
-//        confirmpasswordLabel.text = ConfirmPasswordTextfield.hasText ?"ConfirmPassword":""
-//    }
-//
-//
-//}
+
+    
+    
+    
+
+
+extension LoginViewController :UITextFieldDelegate{
+
+
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        emailLabel.text = emailTextfield.hasText ? "Email" : ""
+
+        passwordLabel.text = passwordTextfield.hasText ? "Password": ""
+        confirmpasswordLabel.text = ConfirmPasswordTextfield.hasText ?"ConfirmPassword":""
+    }
+
+
+}

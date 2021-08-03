@@ -6,3 +6,6 @@
 //
 
 import Foundation
+let KcurrentUser = "Current user"
+
+let KuserDefult = UserDefaults.standard

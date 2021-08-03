@@ -7,8 +7,7 @@
 
 import Foundation
 import FirebaseFirestore
-
-
+import FirebaseFirestoreSwift
 
 struct User : Codable{
     var Id = ""
@@ -21,4 +20,16 @@ struct User : Codable{
     
     
     
+}
+func samveDataLocally(_ user:User){
+    
+    let encoder = JSONEncoder()
+    do{
+        let data = try encoder.encode(user)
+    
+        KuserDefult.set(data, forKey: KcurrentUser)
+        
+    }catch{
+        print(error.localizedDescription)
+    }
 }
